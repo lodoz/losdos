@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../vendor/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/layout.min.css">
+    <link rel="stylesheet" href="../assets/css/menu.min.css">
+
+    <title>Checkout | Los Dos Mexican Cuisine Restaurant</title>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="../"><img src="../assets/img/logo-los-dos.svg" alt="Los Dos Restaurant" title="Los Dos Restaurant" loading="lazy"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a href="checkout.html" class="cart ml-auto">
+                    <i class="fa badge" style="font-size:24px" value=5>&#xf07a;</i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h1>Checkout</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+
+                    <div class="card mb-4 shadow-sm border-0">
+                        <div class="card-body">
+                            <h2 class="mb-4">Customer details</h2>
+                            <div class="form-group">
+                                <label for="inputName" class="sr-only">Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="inputName" aria-describedby="inputName">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputLastName"class="sr-only">Last name</label>
+                                <input type="text" class="form-control" placeholder="Last name" id="inputLastName" aria-describedby="inputLastName">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail"class="sr-only">Email address</label>
+                                <input type="email" class="form-control" placeholder="Email address" id="inputEmail" aria-describedby="inputEmail">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPhone"class="sr-only">Phone</label>
+                                <input type="phone" class="form-control" placeholder="Phone" id="inputPhone" aria-describedby="inputPhone">
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card mb-4 shadow-sm border-0">
+                        <div class="card-body">
+                            <h2>Pick-up details</h2>
+                            <p>The make and model of vehicle being used for pick-up.</p>
+
+                            <div class="form-group">
+                                <label for="inputMake"class="sr-only">Make</label>
+                                <input type="text" class="form-control" placeholder="Make" id="inputMake" aria-describedby="inputMake">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputModel"class="sr-only">Model</label>
+                                <input type="text" class="form-control" placeholder="Model" id="inputModel" aria-describedby="inputModel">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4 shadow-sm border-0">
+                        <div class="card-body">
+                            <h2>Payment</h2>
+                            <p>Choose type of payment.</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                <label class="form-check-label" for="exampleRadios1">
+                                    Over the phone
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                <label class="form-check-label" for="exampleRadios1">
+                                    Credit/Debit Card
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card mb-4 shadow-sm border-0">
+                        <div class="card-body">
+                            <h2>Order summary</h2>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <b>4 items</b>
+                                </div>
+                                <div class="col text-right">
+                                    <a href="menu.html" class="btn btn-outline-dark btn-sm"><i class="fas fa-plus mr-2"></i>Add more items</a>
+                                </div>
+                            </div>
+                            <div class="order-items-list mb-4">
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        1 Cochinita Pibil
+                                    </div>
+                                    <div class="col text-right">
+                                        $99.99
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        3 Quesadillas
+                                    </div>
+                                    <div class="col text-right">
+                                        $99.99
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="">
+                                    <p><b>Special instructions</b></p>
+                                    <label class="sr-only">Leave note to for the kitchen</label>
+                                    <textarea class="form-control" rows="3" placeholder="Leave note to for the kitchen"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="sticky-top">
+                        <div class="card mb-4 shadow-sm border-0">
+                            <div class="card-body">
+                                <div class="alert alert-info border-0">
+                                    <i class="fas fa-clock mr-2"></i> Order ready in 50 minutes<br>
+                                    <i class="fas fa-map-marker mr-2"></i> Pick-up
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col">Subtotal - 2 items</div>
+                                    <div class="col text-right">$341.00</div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col">Pick-up</div>
+                                    <div class="col text-right">$0.00</div>
+                                </div>
+                                <div class="row font-weight-bold lead">
+                                    <div class="col">Total</div>
+                                    <div class="col text-right">$341.00</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- EL BUTTON ES EL QUE VA, EL A ES PARA PRUEBAS -->
+                        <!-- <button type="submit" class="btn btn-primary btn-lg btn-block">Crear Orden</button> -->
+
+                        <a href="confirmation.html" class="btn btn-dark btn-lg btn-block">Create Order</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="borde-bottom"></div>
+    </main>
+
+    <footer class="border-top">
+        <div class="container">
+            <div class="row py-5 d-none">
+                <div class="col-4">
+                    <p>LOS 2 RESTAURANT</p>
+                    <p><b>ADDRESS</b></p>
+                    <p>2251 Maple Ave. Downers Grove, IL 60515</p>
+                </div>
+
+                <div class="col-4">
+                    <p><b>HOURS</b></p>
+                    <p><b>Mon:</b> Closed<br>
+                        <b>Tue-Sat:</b> 10:30am to 08.00pm<br>
+                        <b>Sun:</b> 11:00am to 06:00pm</p>
+                </div>
+
+                <div class="col-4">
+                    <p><b>PHONE</b></p>
+                    <p><a href="tel:6302978337">630-297-8337</a></p>
+
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-12 col-md-6 text-center text-md-right order-md-last mb-3 mb-md-0">
+                    <a href="">Aviso de privacidad</a>
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-left">
+                    Copyright &copy; 2020 Los dos restaurant. <span class="d-block d-sm-none"></span>All Right Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../vendor/jquery-3.4.1.min.js"></script>
+    <script src="../vendor/popper.min.js"></script>
+    <script src="../vendor/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

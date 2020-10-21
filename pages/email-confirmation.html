@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge; charset=iso-8859-1" />
+        <meta name="x-apple-disable-message-reformatting" />
+        <title>Order confirmation</title>
+        <!-- Web Font / @font-face : BEGIN -->
+        <!--[if mso]>
+            <style>
+                * {
+                    font-family: sans-serif !important;
+                }
+            </style>
+        <![endif]-->
+        <!-- Web Font / @font-face : END -->
+        <style>
+            html, body {
+                height: 100% !important;
+                width: 100% !important;
+                margin: 0 auto !important;
+                padding: 0 !important;
+            }
+            * {
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+            }
+            div[style*="margin: 16px 0"] {
+                margin: 0 !important;
+            }
+            table, td {
+                mso-table-lspace: 0 !important;
+                mso-table-rspace: 0 !important;
+            }
+            table {
+                border-spacing: 0 !important;
+                border-collapse: collapse !important;
+                table-layout: fixed !important;
+                margin: 0 auto !important;
+            }
+                table table table {
+                    table-layout: auto;
+                }
+
+            img {
+                -ms-interpolation-mode: bicubic;
+            }
+            [x-apple-data-detectors] {
+                color: inherit !important;
+                text-decoration: none !important;
+            }
+            .x-gmail-data-detectors, .x-gmail-data-detectors *, .abn {
+                border-bottom: 0 !important;
+                cursor: default !important;
+            }
+                .x-gmail-data-detectors a {
+                    color: #d4002a !important;
+                }
+            .a6s {
+                display: none !important;
+                opacity: 0.01 !important;
+            }
+            img.g-img + div {
+                display: none !important;
+            }
+            .button-link {
+                text-decoration: none !important;
+            }
+
+            .button-td, .button-a {
+                transition: all 100ms ease-in;
+            }
+                .button-td:hover, .button-a:hover {
+                    background: #333 !important;
+                    border-color: #333 !important;
+                }
+            @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+                .email-container {
+                    min-width: 375px !important;
+                }
+            }
+            @media screen and (max-width: 600px) {
+                .email-container {
+                    width: 100% !important;
+                    margin: auto !important;
+                }
+                .fluid {
+                    max-width: 100% !important;
+                    height: auto !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                }
+                .stack-column, .stack-column-center {
+                    display: block;
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    direction: ltr !important;
+                }
+                .stack-column-center {
+                    text-align: center !important;
+                }
+                .center-on-narrow {
+                    text-align: center !important;
+                    display: block !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                    float: none !important;
+                }
+                table.center-on-narrow {
+                    display: inline-block !important;
+                }
+            }
+        </style>
+    </head>
+    <body width="100%" bgcolor="#ededed" style="margin: 0; mso-line-height-rule: exactly;">
+        <center style="width: 100%; background: #ededed; text-align: left;">
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;color:#ededed">
+                Thanks for ordering
+            </div>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto;" class="email-container">
+                <tr>
+                    <td height="40" style="font-size: 0; line-height: 0;">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ffffff" style="padding: 20px 0; text-align: center;border-radius:15px 15px 0 0">
+                        <img src="../assets/img/logo.png" width="94" height="80" alt="Los Dos" border="0" style="height: auto; background: #ffffff; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #ffffff;" />
+                    </td>
+                </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto;" class="email-container">
+                <tr>
+                    <td bgcolor="#ffffff" style="padding:20px; text-align: center; font-family: sans-serif; font-size: 15px; line-height:20px; color: #333333;border-radius: 0 0 20px 20px" class="center-on-narrow">
+                        <h1 style="line-height:30px;font-size:24px;">Thanks for ordering,<br>{Nombre}</h1>
+                        <p>Here's your receipt for your order.</p>
+                    </td>
+                </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto;" class="email-container">
+                <tr>
+                    <td colspan="2" height="20" style="font-size: 0; line-height: 0;">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ffffff" style="padding:20px; font-family: sans-serif; font-size: 15px; line-height:24px; color: #333333; border-radius:20px 0 0 0" class="center-on-narrow">
+                        <p style="font-family: sans-serif; font-size: 18px; line-height: 20px;"><b>Order ID #{orderid}</b><br>
+                            <span style="color: #bfbfbf; font-size: 15px">{fecha}</span></p>
+
+                        <p><b>{Nombre}</b><br>
+                        {teléfono}<br>
+                        {email}</p>
+
+                        <br>
+                        <p><b>Delivery:</b> Pick-up</p>
+                    </td>
+                    <td bgcolor="#ffffff" style="padding:20px; font-family: sans-serif; font-size: 15px; line-height:24px; color: #333333; border-left:1px solid #f1f1f1; border-radius:0 20px 0 0" class="center-on-narrow">
+                        <p style="font-family: sans-serif; font-size: 18px; line-height: 20px;"><b>Summary</b></p>
+
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="260" style="margin: auto;">
+                            <tr>
+                                <td><p style="line-height:0">1 Cochinita Pibil</p></td>
+                                <td style="text-align: right;">$99.99</td>
+                            </tr>
+                            <tr>
+                                <td><p style="line-height:0">1 Cochinita Pibil</p></td>
+                                <td style="text-align: right;">$99.99</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" height="1" style="background-color: #f1f1f1;font-size: 0; line-height: 0;">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><p style="line-height:0"><b>Subtotal</b></p></td>
+                                <td style="text-align: right;"><b>$99.99</b></td>
+                            </tr>
+                            <tr>
+                                <td><p style="line-height:0">Pick-up</p></td>
+                                <td style="text-align: right;">$0.00</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" height="1" style="background-color: #f1f1f1;font-size: 0; line-height: 0;">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><p style="line-height:10px;font-size:18px"><b>Total</b></p></td>
+                                <td style="text-align: right;"><p style="line-height:10px;font-size:18px"><b>$99.99</b></p></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ffffff" style="padding:20px; font-family: sans-serif; font-size: 15px; line-height:24px; color: #333333; border-radius:0 0 0 20px; border-top:1px solid #f1f1f1" class="center-on-narrow">
+                        <p style="font-family: sans-serif; font-size: 18px; line-height: 20px;"><b>Payment</b></p>
+                        <p>Credit Card **** 9999</p>
+                    </td>
+                    <td bgcolor="#ffffff" style="padding:20px; text-align: center; font-family: sans-serif; font-size: 15px; line-height:24px; color: #333333; border-radius:0 0 20px 0; border-top:1px solid #f1f1f1" class="center-on-narrow">
+                        <a href="confirmation.html" style="background-color: #db7440; color:#fff;padding:15px 30px;text-decoration: none;border-radius: 25px;">See order</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" height="20" style="font-size: 0; line-height: 0;">
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto;" class="email-container">
+                <tr>
+                    <td bgcolor="#ededed" dir="ltr" align="center" valign="top" width="100%" style="padding: 10px;">
+                        <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td dir="ltr" valign="top" style="font-family: sans-serif; font-size: 13px; line-height: 18px; color: #bfbfbf; padding: 20px 0; text-align: center;" class="center-on-narrow">
+                                    Do not respond to this message. This e-mail was sent by an automatic system that does not handle responses.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto;" class="email-container">
+                <tr>
+                    <td height="30" style="font-size: 0; line-height: 0;">
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

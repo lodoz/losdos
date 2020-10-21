@@ -1,0 +1,121 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fafaf8;
+}
+a {
+    transition: all .4s;
+    color:#db7440
+}
+a:hover {
+    color: #d7642b;
+}
+.navbar-light .navbar-toggler {
+    border:0;
+}
+.bg-light {
+    background-color: #f2efe6 !important;
+}
+footer.bg-dark {
+    background-color:#db7440 !important
+}
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+.card {
+    border-radius: .8rem;
+}
+.btn {
+    border-radius: 20px;
+}
+.btn-primary {
+    background-color: #4D453D;
+    border-color: #4D453D;
+}
+.bg-primary {
+    background-color: #4D453D;
+}
+.navbar-brand img {
+    height: 60px;
+}
+
+.cart .badge:after{
+    content: attr(value);
+    font-size: 12px;
+    background: #db7440;
+    border-radius: 50%;
+    padding: 2px 6px;
+    position: relative;
+    left: -8px;
+    top: -16px;
+    opacity: .9;
+    color: #fff;
+    font-family: sans-serif;
+}
+.modal-content {
+    border-radius: 1rem;
+    border: 0;
+
+    -webkit-box-shadow: 0 0 35px 0 rgba(154,161,171,.35)!important;
+    box-shadow: 0 0 35px 0 rgba(154,161,171,.35)!important;
+}
+.modal img {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.modal .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 2.1rem;
+    z-index: 1;
+}
+.sticky-top {
+    top: 40px
+}
+.form-control {
+    background-color: #fafafa;
+    height: calc(1.7em + .75rem + 2px);
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+footer img {
+    height: 100px !important;
+}
+a.cart {
+    color: #333;
+}
+.border-bottom {
+    border-color: #eee;
+}
+
+main .borde {
+    position: relative;
+    background-color: #fff;
+    height: 35px;
+}
+main .borde:after {
+    content: "";
+    background-color: #fafaf8;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} 
+main .borde-bottom {
+    position: relative;
+    background-color: #fafaf8;
+    height: 35px;
+}
+main .borde-bottom:after {
+    content: "";
+    background-color: #fff;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
